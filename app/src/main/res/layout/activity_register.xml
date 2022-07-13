@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_regPage"
+        style="@style/tvTitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/register"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="@+id/img_register"
+        app:layout_constraintStart_toStartOf="@+id/img_register"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_register"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/image"
+        android:contentDescription="@string/welcome_image" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/tv_nameReg"
+        style="@style/tvET"
+        android:layout_marginTop="16dp"
+        android:text="@string/name"
+        app:layout_constraintEnd_toEndOf="@+id/img_register"
+        app:layout_constraintStart_toStartOf="@+id/img_register"
+        app:layout_constraintTop_toBottomOf="@+id/img_register" />
+
+    <com.bariq.bariqstoryapp.customView.NameEditText
+        android:id="@+id/et_nameReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:drawableStart="@drawable/ic_person_24dp"
+        android:hint="@string/name_hint"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="@+id/img_register"
+        app:layout_constraintStart_toStartOf="@+id/img_register"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nameReg" />
+
+    <TextView
+        android:id="@+id/tv_emailReg"
+        style="@style/tvET"
+        android:layout_marginTop="8dp"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="@+id/et_nameReg"
+        app:layout_constraintStart_toStartOf="@+id/et_nameReg"
+        app:layout_constraintTop_toBottomOf="@+id/et_nameReg" />
+
+    <com.bariq.bariqstoryapp.customView.EmailEditText
+        android:id="@+id/et_emailReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:drawableStart="@drawable/ic_email_24dp"
+        android:hint="@string/email_hint"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="@+id/img_register"
+        app:layout_constraintStart_toStartOf="@+id/img_register"
+        app:layout_constraintTop_toBottomOf="@+id/tv_emailReg" />
+
+    <TextView
+        android:id="@+id/tv_passwordReg"
+        style="@style/tvET"
+        android:layout_marginTop="8dp"
+        android:text="@string/password"
+        app:layout_constraintEnd_toEndOf="@+id/et_emailReg"
+        app:layout_constraintStart_toStartOf="@+id/et_emailReg"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailReg" />
+
+    <com.bariq.bariqstoryapp.customView.PasswordEditText
+        android:id="@+id/et_passwordReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:drawableStart="@drawable/ic_lock_24dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="@+id/et_emailReg"
+        app:layout_constraintStart_toStartOf="@+id/et_emailReg"
+        app:layout_constraintTop_toBottomOf="@+id/tv_passwordReg" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:alpha="0"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="@+id/et_passwordReg"
+        app:layout_constraintStart_toStartOf="@+id/et_passwordReg"
+        app:layout_constraintTop_toBottomOf="@+id/et_passwordReg"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/tv_txtLogin"
+        style="@style/tvAcc.black"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_register"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+    <TextView
+        android:id="@+id/tv_loginReg"
+        style="@style/tvAcc.blue"
+        android:layout_marginStart="8dp"
+        android:text="@string/login"
+        app:layout_constraintStart_toEndOf="@+id/tv_txtLogin"
+        app:layout_constraintTop_toTopOf="@+id/tv_txtLogin" />
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="@color/loading_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

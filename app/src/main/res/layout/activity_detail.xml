@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:transitionName="image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/detail_imgDesc" />
+
+        <TextView
+            android:id="@+id/tv_nameDetail"
+            android:transitionName="name"
+            style="@style/tvDesc.head"
+            android:layout_marginTop="8dp"
+            tools:text="@string/name"
+            app:layout_constraintEnd_toEndOf="@+id/img_detail"
+            app:layout_constraintStart_toStartOf="@+id/img_detail"
+            app:layout_constraintTop_toBottomOf="@+id/img_detail" />
+
+        <TextView
+            android:id="@+id/tv_created"
+            android:transitionName="create"
+            style="@style/tvDesc"
+            android:layout_marginTop="8dp"
+            tools:text="@string/created_at"
+            app:layout_constraintEnd_toEndOf="@+id/tv_nameDetail"
+            app:layout_constraintStart_toStartOf="@+id/tv_nameDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nameDetail" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:transitionName="desc"
+            style="@style/tvDesc"
+            android:layout_marginTop="8dp"
+            tools:text="@string/description"
+            app:layout_constraintEnd_toEndOf="@+id/tv_created"
+            app:layout_constraintStart_toStartOf="@+id/tv_created"
+            app:layout_constraintTop_toBottomOf="@+id/tv_created" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

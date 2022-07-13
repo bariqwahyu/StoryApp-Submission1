@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="app_nameDetail">Detail Story</string>
+    <string name="app_nameAddStory">Unggah Story</string>
+    <string name="name">Nama</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="created_at">Diunggah pada</string>
+    <string name="description">Deskripsi</string>
+    <string name="logout">Keluar</string>
+    <string name="settings">Pengaturan</string>
+    <string name="add_story">Unggah Story</string>
+    <string name="invalid_email">Format Email Salah!</string>
+    <string name="invalid_password">Masukkan minimal %1$d karakter!</string>
+    <string name="name_hint">Masukkan Nama</string>
+    <string name="email_hint">Masukkan Email</string>
+    <string name="desc_hint">Masukkan Deskripsi</string>
+    <string name="password_hint">Masukkan Password</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="txt_reg">Tidak Memiliki Akun?</string>
+    <string name="txt_login">Sudah Memiliki Akun?</string>
+    <string name="register">Daftar</string>
+    <string name="preview_imgDesc">Pratinjau Gambar</string>
+    <string name="detail_imgDesc">Detail Gambar Story</string>
+    <string name="input_message">Masukkan %1$s</string>
+    <string name="login_error">Gagal Login, Silakan Coba Lagi!</string>
+    <string name="register_error">Gagal Daftar, Silakan Coba Lagi!</string>
+    <string name="no_permission">Tidak Bisa Mendapatkan Permission</string>
+    <string name="reg_title">Selamat!</string>
+    <string name="reg_message">Akun Anda Telah Berhasil Dibuat</string>
+    <string name="no_image">Masukkan Gambar Terlebih Dahulu!</string>
+    <string name="choose_image">Pilih Gambar</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="reg_action">Lanjut</string>
+</resources>

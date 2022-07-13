@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.121" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable-v24/ic_place_holder.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_add_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_close_black_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_email_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_lock_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_person_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_place_holder.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/drawable/ic_settings_24dp.xml" value="0.218" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/activity_add_story.xml" value="0.264" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/activity_detail.xml" value="0.24818840579710144" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/activity_main.xml" value="0.24818840579710144" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/item_story.xml" value="0.4" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/item_widget.xml" value="0.24818840579710144" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/layout/story_widget.xml" value="0.24818840579710144" />
+        <entry key="..\:/Project/AndroidStudioProjects/BariqStoryApp/app/src/main/res/menu/option_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
